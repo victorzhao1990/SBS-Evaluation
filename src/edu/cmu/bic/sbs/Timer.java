@@ -22,4 +22,8 @@ public class Timer {
 	Timer() {
 		offset = new float[2];
 	}
+	
+	public String toString() {
+		return "The time period is starting from " + offset[0] + " to " + offset[1];
+	}
 }

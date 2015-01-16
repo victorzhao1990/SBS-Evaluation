@@ -25,4 +25,12 @@ public class Medicine {
 	public void setMed(String medicine) {
 		this.medicine = medicine.toString();
 	}
+	
+	public String toString() {
+		return "The medicine is " + getMed();
+	}
+	
+	Medicine() {
+		medicine = new String();
+	}
 }

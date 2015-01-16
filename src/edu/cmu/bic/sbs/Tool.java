@@ -15,4 +15,12 @@ public class Tool {
 	public void setTool(String toolName) {
 		this.toolName = toolName;
 	}
+	
+	public String toString() {
+		return "The tool is " + getTool();
+	}
+	
+	Tool() {
+		toolName = new String();
+	}
 }
